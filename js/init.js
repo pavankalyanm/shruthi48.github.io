@@ -3,21 +3,18 @@
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-    $('.slider').slider('pause');
-// Start slider
-$('.slider').slider('start');
-// Next slide
-$('.slider').slider('next');
-// Previous slide
-$('.slider').slider('prev');
+   
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
 $(document).ready(function(){
       $('.carousel').carousel();
-      $('.carousel').carousel('time_constant',50);
-      $('.carousel').carousel('indicators',true);
+      $('.carousel').carousel({dist:0});
+        window.setInterval(function(){$('.carousel').carousel('next')},1000);
+        $('.fixed-action-btn').openFAB();
+        $('.fixed-action-btn').closeFAB();
+     
 
     });
         

@@ -6,6 +6,7 @@
   <title>Big Heart</title>
 
   <!-- CSS  -->
+  <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -17,16 +18,27 @@
       <img src="images/homepage/logo1.png" alt="BigHeartLogo" />
       <a id="logo-container" href="#" class="brand-logo logo-text">Big Heart</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="src/profile.html">Navbar Link</a></li>
+        <li><a href="src/profile.html">who are we</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">who are we</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
+  <div class="fixed-action-btn vertical" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+    
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -36,7 +48,16 @@
           <h5 class="header col s12 light">Be a bigheart . Be a hero</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a  id="download-button" class="btn-large waves-effect waves-light  red darken-4 tooltipped" data-position="bottom" data-delay="50" data-tooltip="lets get started" onclick="Materialize.showStaggeredList('#staggered-test')">Get Started</a>
+       <ul id="staggered-test">
+      <li>
+        <a class="btn red darken-2 white-text" > donor</a> <br />
+      </li>
+      <li class="" style="transform: translateX(0px); opacity: 1;">
+        <h4><a href="#">List Item</a></h4>
+        <p>This is a description</p>
+      </li>
+</ul>
         </div>
         <br><br>
 
@@ -225,7 +246,11 @@ Big heart will also visit schools in Bangalore to impart the idea of philanthrop
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <p class="grey-text text-lighten-4">
+            Big Heart Family new team members and volunteers! <br/>
+
+Big Heart Family is growing and here are our new Team members and volunteers :) Big heart is so happy to welcome them. If you also want to be part of our awesome cause and contribute , please do download our app and Enlist or fill this form : https://docs.google.com/forms/d/e/1FAIpQLSfpfrLKCLQqR0YUpdc_VJG-jayXFr9PnH7Id8bCwq6XyGmoXg/viewform﻿
+</p>
 
 
         </div>
@@ -241,10 +266,9 @@ Big heart will also visit schools in Bangalore to impart the idea of philanthrop
         <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="https://www.facebook.com/pages/Big-Heart/771466019635260"><span class="waves-effect waves-light btn left blue white-text tooltipped" data-position="bottom" data-delay="50" data-tooltip="look for us on facebook">facebook</span></a></li><br />
+            
+            
           </ul>
         </div>
       </div>
